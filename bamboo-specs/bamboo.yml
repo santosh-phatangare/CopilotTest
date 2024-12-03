@@ -1,7 +1,7 @@
 ---
 version: 2
 plan:
-  project-key: MARS
+  project-key: MARS1
   key: ROCKET1
   name: Build the rocket1
 stages:
