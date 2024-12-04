@@ -1,1 +1,14 @@
+---
+version: 2
+plan:
+  project-key: MARS
+  key: SAPCESHIP
+  name: Build the Spaceship
+stages:
+  - Build hull:
+    - Build
 
+Build:
+  tasks:
+    - script:
+      - echo 'Hello World! Changes Added'
