@@ -7,8 +7,13 @@ plan:
 stages:
   - Build hull:
     - Build
+    - Build1
 
 Build:
   tasks:
     - script:
       - echo 'Hello World! Changes Added'
+Build1:
+  tasks:
+    - script:
+      - echo 'Hello World Build'
