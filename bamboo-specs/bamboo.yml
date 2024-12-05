@@ -4,10 +4,6 @@ plan:
   project-key: MARS
   key: ROCKET
   name: Build the rocket
-plan:
-  project-key: MARS
-  key: SPACESHIP
-  name: Build the spaceship
 stages:
   - Build hull:
     - Build
