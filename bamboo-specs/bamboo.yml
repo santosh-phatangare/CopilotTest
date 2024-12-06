@@ -9,14 +9,22 @@ stages:
     - clean
     - install
   - Deploy:
-    - clean
-    - install
+    - clean1
+    - install1
 
 clean:
   tasks:
     - script:
       - echo '--maven clean'
 install:
+  tasks:
+    - script:
+      - echo '--maven intsall'
+clean1:
+  tasks:
+    - script:
+      - echo '--maven clean'
+install1:
   tasks:
     - script:
       - echo '--maven intsall'
