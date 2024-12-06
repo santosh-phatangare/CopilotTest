@@ -5,15 +5,18 @@ plan:
   key: ROCKET
   name: Build the rocket
 stages:
-  - Build hull:
-    - Build
-    - Build1
+  - Build:
+    - clean
+    - install
+  - Deploy:
+    - clean
+    - install
 
-Build:
+clean:
   tasks:
     - script:
-      - echo 'Hello World! Changes Added'
-Build1:
+      - echo '--maven clean'
+install:
   tasks:
     - script:
-      - echo 'Hello World Build'
+      - echo '--maven intsall'
