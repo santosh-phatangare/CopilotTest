@@ -20,12 +20,15 @@ clean:
 install:
   tasks:
     - script:
+      - sleep 30000
       - echo '--maven intsall'
 clean1:
   tasks:
     - script:
+      - sleep 30000
       - echo '--maven clean'
 install1:
   tasks:
     - script:
+      - sleep 30000
       - echo '--maven intsall'
